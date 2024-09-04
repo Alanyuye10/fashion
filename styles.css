@@ -1,0 +1,42 @@
+body {
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background: linear-gradient(90deg, #000, #333);
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.hover\:scale-105 {
+    transition: transform 0.3s ease-in-out;
+}
+/* .hero-bg {
+    background: url() no-repeat center center;
+    background-size: cover;
+}
+#image{
+    background-image: url();
+} */
+/* html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(250, 188, 72);
+    border-radius: 10px;
+} *
